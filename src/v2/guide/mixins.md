@@ -131,7 +131,9 @@ Vue.mixin({
 })
 
 new Vue({
-  myOption: 'hello!'
+  data:{
+    myOption: 'hello!'
+  }
 })
 // => "hello!"
 ```
